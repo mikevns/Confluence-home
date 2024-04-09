@@ -1,0 +1,105 @@
+2024-04-05 13:29:23,832 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [store.jpa.impl.LiquibaseSchemaUpgrader] info starting Liquibase setup
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:27,420 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [store.jpa.impl.LiquibaseSchemaUpgrader] info Liquibase initialization completed
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,324 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [migration.agent.service.ClusterLimits] info Maximum node count will be periodically checked on the database every PT5M
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,369 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.service.analytics.AnalyticsEventConsumer] info Successfully registered AnalyticsEventConsumer job migration-plugin:analytics-events-consumer-runner-key.
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,372 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.service.analytics.AnalyticsEventConsumer] info Successfully started AnalyticsEventConsumer poller.
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,463 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.service.stepexecutor.ExportExecutor] info Created temporary directory for export, call return false
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,486 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [service.stepexecutor.attachment.AttachmentMigrationExecutor] info Initialized attachment migration executor with concurrency = 5 and batch size = 1000.
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,508 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.service.stepexecutor.ExportExecutor] info Created temporary directory for export, call return false
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,593 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [service.guardrails.usage.AccessLogProcessingJobRunner] info Successfully registered access log processing job com.atlassian.confluence.migration.guardrails.AccessLogProcessingJobRunner.
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,780 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.service.impl.SpaceStatisticCalculationInitialExecutor] init Successfully registered job with runnerKey: migration-plugin:initial-space-statistic-calculation
+2024-04-05 13:29:29,783 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.service.impl.SpaceStatisticCalculationInitialExecutor] init Successfully scheduled job. jobId: migration-plugin:initial-space-statistic-calculation , runnerKey: migration-plugin:initial-space-statistic-calculation
+2024-04-05 13:29:29,831 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.service.impl.DetectedUserEmailAnalyticsScheduledRunner] postConstruct Scheduled detected email analytics event collection job to be run each 120 hours.
+2024-04-05 13:29:29,842 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.mapi.executor.MapiStatusConsumer] info Successfully registered MapiStatusConsumer job migration-plugin:mapi-status-consumer-runner-key.
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:29,844 INFO [ThreadPoolAsyncTaskExecutor::Thread 14] [agent.mapi.executor.MapiStatusConsumer] info Successfully started MapiStatusConsumer poller.
+ -- url: /setup/setupdbtype.action | userName: anonymous | action: setupdbtype | referer: http://localhost:8090/setup/setupdbtype-start.action?thisNodeClustered=true | traceId: 006b275acfffff2b
+2024-04-05 13:29:32,269 INFO [http-nio-8090-exec-4] [agent.service.impl.DefaultStatisticsService] onPluginEnabled CCMA Plugin enabled, calculating server statistics
+2024-04-05 13:29:48,634 INFO [Caesium-1-2] [agent.service.impl.SpaceStatisticCalculationInitialExecutor] runJob Running initial space statistic calculation job. jobId: migration-plugin:initial-space-statistic-calculation
+2024-04-05 13:29:48,643 INFO [Caesium-1-2] [agent.service.impl.SpaceStatisticCalculationService] runSpaceStatisticCalculationIfEmptyOrMissingSpaces Running 1 spaces without space statistics
+2024-04-05 13:29:48,646 INFO [Caesium-1-2] [agent.service.impl.SpaceStatisticCalculationService] spinupJobsToRunSpaceStaticCalculations submitting tasks
+2024-04-05 13:29:48,653 INFO [pool-31-thread-1] [agent.service.impl.SpaceStatisticCalculationService] calculateStatisticsFor Calculating space statistics for batch migration-plugin:initial-space-statistic-calculation-6dd7618c-2cdd-4371-bf0f-ef7ba1850dbc-batch0
+2024-04-05 13:29:48,715 INFO [Caesium-1-3] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-05 13:29:48,726 INFO [Caesium-1-1] [agent.service.check.StaleChecksCleaner] info Cleaning stale checks
+2024-04-05 13:29:48,733 INFO [Caesium-1-3] [agent.service.impl.DetectedUserEmailAnalyticsScheduledRunner] runJob Trigger detected emails analytics events collection for all linked cloud ids.
+2024-04-05 13:29:48,755 INFO [pool-31-thread-1] [agent.service.impl.SpaceStatisticCalculationService] storeStatistics Storing statistics for batch migration-plugin:initial-space-statistic-calculation-6dd7618c-2cdd-4371-bf0f-ef7ba1850dbc-batch0
+2024-04-05 13:29:48,755 INFO [Caesium-1-3] [agent.service.impl.DetectedUserEmailAnalyticsService] lambda$trigger$0 Detected user emails events collector job is scheduled for cloudIds = Optional.empty.
+2024-04-05 13:29:48,776 INFO [pool-31-thread-1] [agent.service.impl.SpaceStatisticCalculationService] calculateAndStore Took 123ms to calculate and store space statistic for batch migration-plugin:initial-space-statistic-calculation-6dd7618c-2cdd-4371-bf0f-ef7ba1850dbc-batch0 with 1 spaces: 102ms to calculate and 21ms to store. 
+2024-04-05 13:29:48,779 INFO [Caesium-1-3] [agent.service.impl.DetectedUserEmailAnalyticsService] lambda$runJob$1 Start job to collect detected emails analytics events for cloud ids = [].
+2024-04-05 13:29:48,780 WARN [Caesium-1-3] [agent.service.impl.DetectedUserEmailAnalyticsService] collectAndSendEvents There are no cloud sites linked. Skip job.
+ -- jobId: b691c685-f171-421f-b255-c7e9c47018af | jobRunnerId: migration-plugin:detected-emails-runner
+2024-04-05 13:29:48,780 INFO [Caesium-1-3] [agent.service.impl.DetectedUserEmailAnalyticsService] lambda$runJob$1 Finished job to collect detected emails analytics events in 0 seconds.
+2024-04-05 13:29:48,792 INFO [Caesium-1-2] [agent.service.impl.SpaceStatisticCalculationService] spinupJobsToRunSpaceStaticCalculations took 149ms to finish job migration-plugin:initial-space-statistic-calculation
+2024-04-05 13:34:48,714 INFO [Caesium-1-4] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-05 13:39:48,715 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-05 13:44:48,717 INFO [Caesium-1-1] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-05 13:49:48,719 INFO [Caesium-1-3] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-05 13:54:48,718 INFO [Caesium-1-4] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-05 13:59:48,719 INFO [Caesium-1-3] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-05 14:00:48,726 INFO [Caesium-1-2] [agent.service.check.StaleChecksCleaner] info Cleaning stale checks
+2024-04-05 14:04:48,718 INFO [Caesium-1-4] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-05 14:09:48,720 INFO [Caesium-1-1] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:07:11,322 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [store.jpa.impl.LiquibaseSchemaUpgrader] info starting Liquibase setup
+2024-04-09 14:07:11,961 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [store.jpa.impl.LiquibaseSchemaUpgrader] info Liquibase initialization completed
+2024-04-09 14:07:13,054 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [migration.agent.service.ClusterLimits] info Maximum node count will be periodically checked on the database every PT5M
+2024-04-09 14:07:13,084 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.service.analytics.AnalyticsEventConsumer] info Successfully registered AnalyticsEventConsumer job migration-plugin:analytics-events-consumer-runner-key.
+2024-04-09 14:07:13,086 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.service.analytics.AnalyticsEventConsumer] info Successfully started AnalyticsEventConsumer poller.
+2024-04-09 14:07:13,124 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.service.stepexecutor.ExportExecutor] info Created temporary directory for export, call return false
+2024-04-09 14:07:13,135 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [service.stepexecutor.attachment.AttachmentMigrationExecutor] info Initialized attachment migration executor with concurrency = 5 and batch size = 1000.
+2024-04-09 14:07:13,146 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.service.stepexecutor.ExportExecutor] info Created temporary directory for export, call return false
+2024-04-09 14:07:13,222 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [service.guardrails.usage.AccessLogProcessingJobRunner] info Successfully registered access log processing job com.atlassian.confluence.migration.guardrails.AccessLogProcessingJobRunner.
+2024-04-09 14:07:13,313 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.service.impl.SpaceStatisticCalculationInitialExecutor] init Successfully registered job with runnerKey: migration-plugin:initial-space-statistic-calculation
+2024-04-09 14:07:13,314 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.service.impl.SpaceStatisticCalculationInitialExecutor] init Successfully scheduled job. jobId: migration-plugin:initial-space-statistic-calculation , runnerKey: migration-plugin:initial-space-statistic-calculation
+2024-04-09 14:07:13,340 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.service.impl.DetectedUserEmailAnalyticsScheduledRunner] postConstruct Scheduled detected email analytics event collection job to be run each 120 hours.
+2024-04-09 14:07:13,346 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.mapi.executor.MapiStatusConsumer] info Successfully registered MapiStatusConsumer job migration-plugin:mapi-status-consumer-runner-key.
+2024-04-09 14:07:13,347 INFO [ThreadPoolAsyncTaskExecutor::Thread 5] [agent.mapi.executor.MapiStatusConsumer] info Successfully started MapiStatusConsumer poller.
+2024-04-09 14:07:14,355 INFO [Catalina-utility-1] [agent.service.impl.DefaultStatisticsService] onPluginEnabled CCMA Plugin enabled, calculating server statistics
+2024-04-09 14:07:27,769 INFO [Caesium-1-1] [agent.service.impl.SpaceStatisticCalculationInitialExecutor] runJob Running initial space statistic calculation job. jobId: migration-plugin:initial-space-statistic-calculation
+2024-04-09 14:07:27,809 INFO [Caesium-1-1] [agent.service.impl.SpaceStatisticCalculationService] runSpaceStatisticCalculationIfEmptyOrMissingSpaces Running 1 spaces without space statistics
+2024-04-09 14:07:27,811 INFO [Caesium-1-1] [agent.service.impl.SpaceStatisticCalculationService] spinupJobsToRunSpaceStaticCalculations submitting tasks
+2024-04-09 14:07:27,815 INFO [pool-29-thread-1] [agent.service.impl.SpaceStatisticCalculationService] calculateStatisticsFor Calculating space statistics for batch migration-plugin:initial-space-statistic-calculation-6f84d042-e243-44e3-a93e-b902f8106f51-batch0
+2024-04-09 14:07:27,848 INFO [pool-29-thread-1] [agent.service.impl.SpaceStatisticCalculationService] storeStatistics Storing statistics for batch migration-plugin:initial-space-statistic-calculation-6f84d042-e243-44e3-a93e-b902f8106f51-batch0
+2024-04-09 14:07:27,855 INFO [pool-29-thread-1] [agent.service.impl.SpaceStatisticCalculationService] calculateAndStore Took 40ms to calculate and store space statistic for batch migration-plugin:initial-space-statistic-calculation-6f84d042-e243-44e3-a93e-b902f8106f51-batch0 with 1 spaces: 33ms to calculate and 7ms to store. 
+2024-04-09 14:07:27,862 INFO [Caesium-1-1] [agent.service.impl.SpaceStatisticCalculationService] spinupJobsToRunSpaceStaticCalculations took 53ms to finish job migration-plugin:initial-space-statistic-calculation
+2024-04-09 14:07:27,913 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:07:27,916 INFO [Caesium-1-1] [agent.service.check.StaleChecksCleaner] info Cleaning stale checks
+2024-04-09 14:07:28,339 INFO [Caesium-1-3] [agent.service.impl.DetectedUserEmailAnalyticsScheduledRunner] runJob Trigger detected emails analytics events collection for all linked cloud ids.
+2024-04-09 14:07:28,344 INFO [Caesium-1-3] [agent.service.impl.DetectedUserEmailAnalyticsService] lambda$trigger$0 Detected user emails events collector job is scheduled for cloudIds = Optional.empty.
+2024-04-09 14:07:28,346 INFO [Caesium-1-2] [agent.service.impl.DetectedUserEmailAnalyticsService] lambda$runJob$1 Start job to collect detected emails analytics events for cloud ids = [].
+2024-04-09 14:07:28,346 WARN [Caesium-1-2] [agent.service.impl.DetectedUserEmailAnalyticsService] collectAndSendEvents There are no cloud sites linked. Skip job.
+ -- jobId: c9428c2c-5351-4928-b300-c82c560c8cc8 | jobRunnerId: migration-plugin:detected-emails-runner
+2024-04-09 14:07:28,346 INFO [Caesium-1-2] [agent.service.impl.DetectedUserEmailAnalyticsService] lambda$runJob$1 Finished job to collect detected emails analytics events in 0 seconds.
+2024-04-09 14:12:27,914 INFO [Caesium-1-4] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:17:27,915 INFO [Caesium-1-3] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:22:27,915 INFO [Caesium-1-4] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:27:27,917 INFO [Caesium-1-3] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:32:27,917 INFO [Caesium-1-4] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:37:27,916 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:38:27,917 INFO [Caesium-1-2] [agent.service.check.StaleChecksCleaner] info Cleaning stale checks
+2024-04-09 14:42:27,917 INFO [Caesium-1-4] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:47:27,916 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:52:27,917 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 14:57:27,918 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:02:27,918 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:07:27,918 INFO [Caesium-1-1] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:09:27,919 INFO [Caesium-1-1] [agent.service.check.StaleChecksCleaner] info Cleaning stale checks
+2024-04-09 15:12:27,921 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:17:27,922 INFO [Caesium-1-3] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:22:27,923 INFO [Caesium-1-4] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:27:27,922 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:32:27,923 INFO [Caesium-1-1] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:37:27,923 INFO [Caesium-1-3] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:40:27,919 INFO [Caesium-1-4] [agent.service.check.StaleChecksCleaner] info Cleaning stale checks
+2024-04-09 15:42:27,926 INFO [Caesium-1-2] [service.stepexecutor.export.SpaceExportCacheService] removeExpiredCacheEntries Removing export cache entries that have exceeded their TTL.
+2024-04-09 15:43:40,532 INFO [FelixShutdown] [agent.service.guardrails.BrowserMetricsService] preDestroy Browser-metrics cache has been cleared.
+2024-04-09 15:43:40,533 INFO [FelixShutdown] [service.guardrails.usage.AccessLogProcessingJobRunner] info Successfully unregistered access log processing job com.atlassian.confluence.migration.guardrails.AccessLogProcessingJobRunner.
+2024-04-09 15:43:40,533 INFO [FelixShutdown] [agent.service.guardrails.InstanceAnalysisControlService] preDestroy Instance analysis control job unregistered successfully.

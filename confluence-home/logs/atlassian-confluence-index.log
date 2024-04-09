@@ -1,0 +1,62 @@
+2024-04-05 13:29:48,589 INFO [http-nio-8090-exec-10] [index.status.importexport.ClearReIndexJobPostImportTask] execute Deleting re-index history of previous instance
+2024-04-05 13:29:48,676 INFO [http-nio-8090-exec-10] [internal.index.lucene.LuceneFullReindexManager] fullReindexLock Locking indexes for full reindex
+2024-04-05 13:29:48,786 INFO [http-nio-8090-exec-10] [internal.index.lucene.LuceneFullReindexManager] fullReindexUnlock Unlocking indexes after full reindex
+2024-04-05 13:29:48,829 INFO [lucene-interactive-reindexing-thread] [internal.index.status.DefaultReIndexJobManager] indexRebuildStarted Scheduled a job to monitor progress of rebuilding index
+2024-04-05 13:29:48,833 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex Indexing starting for stage CONTENT_ONLY
+2024-04-05 13:29:48,881 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex full reindex partitions for CONTENT_ONLY and concurrency level 6, total 3 groups
+2024-04-05 13:29:48,922 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId main_index has no entries
+2024-04-05 13:29:48,924 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId edge_index has no entries
+2024-04-05 13:29:48,926 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId change_index has no entries
+2024-04-05 13:29:48,931 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex starting for CONTENT_ONLY, deleting documents from index
+2024-04-05 13:29:48,931 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 Pre-optimizing indices...
+2024-04-05 13:29:48,932 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex documents deleted for  CONTENT_ONLY, starting full reindex
+2024-04-05 13:29:48,968 INFO [lucene-interactive-reindexing-thread] [confluence.internal.index.ConcurrentBatchIndexer] submitBatches Partitioning indexable entities [1 com.atlassian.confluence.spaces.SpaceDescription] up to 20 at a time across indexing threads
+2024-04-05 13:29:49,590 INFO [Indexer: 1] [confluence.internal.index.ConcurrentBatchIndexer] logProgress Re-index progress: 1 of 54. 1% complete. Memory usage: 344 MB free, 1 GB total
+2024-04-05 13:29:49,592 INFO [lucene-interactive-reindexing-thread] [confluence.internal.index.ConcurrentBatchIndexer] index Shutting down indexing thread pool
+2024-04-05 13:29:49,593 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex group 1/3 completed for CONTENT_ONLY, 1% complete
+2024-04-05 13:29:49,593 INFO [lucene-interactive-reindexing-thread] [confluence.internal.index.ConcurrentBatchIndexer] submitBatches Partitioning indexable entities [1 com.atlassian.confluence.spaces.Space] up to 20 at a time across indexing threads
+2024-04-05 13:29:49,630 INFO [Indexer: 1] [confluence.internal.index.ConcurrentBatchIndexer] logProgress Re-index progress: 2 of 54. 3% complete. Memory usage: 326 MB free, 1 GB total
+2024-04-05 13:29:49,631 INFO [lucene-interactive-reindexing-thread] [confluence.internal.index.ConcurrentBatchIndexer] index Shutting down indexing thread pool
+2024-04-05 13:29:49,631 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex group 2/3 completed for CONTENT_ONLY, 3% complete
+2024-04-05 13:29:49,632 INFO [lucene-interactive-reindexing-thread] [confluence.internal.index.ConcurrentBatchIndexer] submitBatches Partitioning indexable entities [32 com.atlassian.confluence.pages.Page] up to 20 at a time across indexing threads
+2024-04-05 13:29:50,082 INFO [Indexer: 2] [confluence.internal.index.ConcurrentBatchIndexer] logProgress Re-index progress: 14 of 54. 25% complete. Memory usage: 253 MB free, 1 GB total
+2024-04-05 13:29:50,470 INFO [Indexer: 1] [confluence.internal.index.ConcurrentBatchIndexer] logProgress Re-index progress: 34 of 54. 62% complete. Memory usage: 456 MB free, 1 GB total
+2024-04-05 13:29:50,471 INFO [lucene-interactive-reindexing-thread] [confluence.internal.index.ConcurrentBatchIndexer] index Shutting down indexing thread pool
+2024-04-05 13:29:50,472 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex group 3/3 completed for CONTENT_ONLY, 62% complete
+2024-04-05 13:29:50,472 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex completed for CONTENT_ONLY, 62% complete, start cleaning up files
+2024-04-05 13:29:50,473 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 Post-optimizing indices...
+2024-04-05 13:29:50,597 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex cleanup completed for CONTENT_ONLY
+2024-04-05 13:29:50,714 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex Indexing completed for stage CONTENT_ONLY
+2024-04-05 13:29:50,715 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex Indexing starting for stage ATTACHMENT_ONLY
+2024-04-05 13:29:50,718 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex full reindex partitions for ATTACHMENT_ONLY and concurrency level 4, total 1 groups
+2024-04-05 13:29:50,723 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId the latest entry for main_index is 1
+2024-04-05 13:29:50,724 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId edge_index has no entries
+2024-04-05 13:29:50,726 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId the latest entry for change_index is 2
+2024-04-05 13:29:50,726 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex starting for ATTACHMENT_ONLY, deleting documents from index
+2024-04-05 13:29:50,726 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 Pre-optimizing indices...
+2024-04-05 13:29:50,726 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex documents deleted for  ATTACHMENT_ONLY, starting full reindex
+2024-04-05 13:29:50,727 INFO [lucene-interactive-reindexing-thread] [confluence.internal.index.ConcurrentBatchIndexer] submitBatches Partitioning indexable entities [20 com.atlassian.confluence.pages.Attachment] up to 20 at a time across indexing threads
+2024-04-05 13:29:51,027 INFO [Indexer: 1] [confluence.internal.index.ConcurrentBatchIndexer] logProgress Re-index progress: 100% complete. 54 items have been reindexed
+2024-04-05 13:29:51,028 INFO [lucene-interactive-reindexing-thread] [confluence.internal.index.ConcurrentBatchIndexer] index Shutting down indexing thread pool
+2024-04-05 13:29:51,028 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex group 1/1 completed for ATTACHMENT_ONLY, 100% complete
+2024-04-05 13:29:51,028 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex completed for ATTACHMENT_ONLY, 100% complete, start cleaning up files
+2024-04-05 13:29:51,028 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 Post-optimizing indices...
+2024-04-05 13:29:51,062 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex cleanup completed for ATTACHMENT_ONLY
+2024-04-05 13:29:51,070 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$setJournalsLatestEntries$10 main_index storage was set to the latest entry 1
+2024-04-05 13:29:51,070 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$setJournalsLatestEntries$10 change_index storage was set to the latest entry 2
+2024-04-05 13:29:51,070 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex Indexing completed for stage ATTACHMENT_ONLY
+2024-04-05 13:29:51,070 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex Indexing starting for stage USER_ONLY
+2024-04-05 13:29:51,072 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex full reindex partitions for USER_ONLY and concurrency level 4, total 0 groups
+2024-04-05 13:29:51,078 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId the latest entry for main_index is 1
+2024-04-05 13:29:51,079 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId edge_index has no entries
+2024-04-05 13:29:51,081 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] getMostRecentId the latest entry for change_index is 2
+2024-04-05 13:29:51,081 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex starting for USER_ONLY, deleting documents from index
+2024-04-05 13:29:51,081 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 Pre-optimizing indices...
+2024-04-05 13:29:51,081 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex documents deleted for  USER_ONLY, starting full reindex
+2024-04-05 13:29:51,081 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex completed for USER_ONLY, 100% complete, start cleaning up files
+2024-04-05 13:29:51,081 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 Post-optimizing indices...
+2024-04-05 13:29:51,082 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$reIndex$7 full reindex cleanup completed for USER_ONLY
+2024-04-05 13:29:51,083 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$setJournalsLatestEntries$10 main_index storage was set to the latest entry 1
+2024-04-05 13:29:51,083 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] lambda$setJournalsLatestEntries$10 change_index storage was set to the latest entry 2
+2024-04-05 13:29:51,084 INFO [lucene-interactive-reindexing-thread] [internal.index.lucene.LuceneReIndexer] reIndex Indexing completed for stage USER_ONLY
+2024-04-05 13:41:37,620 INFO [http-nio-8090-exec-8 url: /rest/onboarding/1/space; user: admin] [index.status.importexport.ClearReIndexJobPostImportTask] execute Deleting re-index history of previous instance
